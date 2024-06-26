@@ -4,8 +4,10 @@
 
  ### Контактная информация
  ---
-kasperovich.v.d@gmail.com | +375(29)701-88-22\
-Минск, Беларусь
+**Email:** kasperovich.v.d@gmail.com  
+**Phone:** +375(29)701-88-22\
+**Telegram:** : @v_kasperovich 
+
 
 ### Образование
 ---
