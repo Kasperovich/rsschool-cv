@@ -1,13 +1,13 @@
 # Vlad Kasperovich
 
 ### .net разработчик
+---
 
 ### Контактная информация
  ---
 **Email:** kasperovich.v.d@gmail.com  
 **Phone:** +375(29)701-88-22\
 **Telegram:** : @v_kasperovich 
-
 
 ### Образование
 ---
