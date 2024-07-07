@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="assets/img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>cv</title>
+</head>
+<body>
+    <header class="header"> 
+        <div class="container">
+            <nav class="nav ubuntu-light">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#Work-experience" class="nav-link">Work experience</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class="main">    
+        <div class="container main-container">
+            <div class="section" id="avatar">
+                    <img src="./assets/img/avatar.jpg" alt="avatar" class="avatar" />
+            </div>
+            <section class="section" id="profile">
+                <div class="profile">
+                    <h1 class="ubuntu-bold name">KASPEROVICH VLAD</h1>
+                    <h4 class="ubuntu-light specialization">.net developer</h4>
+                </div>
+            </section>    
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="selection-list">
+                    <li class="selection-item">
+                        <b>Location:</b>
+                        Minsk, Belarus
+                    </li>
+                    <li class="selection-item">
+                        <b>Telegram:</b>
+                        <a class="selection-item-link" title="Telegram" href="https://t.me/v_kasperovich">@v_kasperovich</a>
+                    </li>
+                    <li class="selection-item">
+                        <b>Email:</b>
+                        <a class="selection-item-link" title="Mail" href="mailto:kasperovich.v.d@gmail.com">kasperovich.v.d@gmail.com</a>
+                        
+                    </li>
+                    <li class="selection-item">
+                        <b>GitHub:</b>
+                        <a class="selection-item-link" title="GitHub" href="https://github.com/Kasperovich">@kasperovich</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p> I am a young and ambitious developer with experience in web technologies. My passion is creating beautiful and functional web applications. I am eager to learn and grow, and I am seeking a mentor who can help me excel in my field.</p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <div class="section-item">
+                    <b>Belarusian State University of Informatics and Radioelectronics</b>
+                    <p>2016-2020</p>
+                </div>
+                <div class="section-item">   
+                    <b>Minsk College of Entrepreneurship</b>
+                    <p>2013-2016</p>
+                </div>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">CODE</h2>
+                <code class="code">
+                    function median(data) {<Br>
+                        data.sort((a, b) => a - b);<Br>
+                        if (data.length % 2) {<Br>
+                          return data[Math.floor(data.length / 2)];<Br>
+                        } else {<Br>
+                          return (data[data.length / 2] + data[data.length / 2 - 1]) / 2;}<Br>
+                      }<Br>
+                </code>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="selection-list-skills">
+                    <li>
+                        Visual Studio C#
+                    </li>
+                    <li class="selection-item-skills">
+                        WPF, MWWM 
+                    </li>
+                    <li class="selection-item-skills">
+                        MSSQL, Dapper  
+                    </li>
+                    <li class="selection-item-skills">
+                        GIT 
+                    </li>
+                    <li class="selection-item-skills">
+                        ASP.NET 
+                    </li>
+                    <li class="selection-item-skills">
+                        HTML, CSS, JS 
+                    </li>
+                    <li class="selection-item">
+                        CorelDraw, Illustrator
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="Work-experience">
+                <h2 class="section-title">Work experience</h2>
+                <div class="selection-item">
+                    <h4>EUROTORG</h4>
+                    <p>Leading System Analyst</p>
+                </div>
+                <div class="selection-item">
+                    <h4>EUROTORG</h4>
+                    <p>System Analyst</p>
+                </div>
+                <div class="selection-item">
+                    <h4>Minsk College of Fashion Industry</h4>
+                    <p>Software Engineer</p>
+                </div>
+                <div class="selection-item">
+                    <h4>Minsk District</h4>
+                    <p>Software Engineer</p>
+                </div>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                Elementary (A1)
+            </section>
+        </div>
+    </main>
+    <footer class="footer">        
+        <div class="container footer-container">
+            <div class="footer-github"> 
+                © 2024
+                <a class="nav-link" title="GitHub" href="https://github.com/Kasperovich">kasperovich</a>
+            </div>
+            <a href="https://rs.school/" class="rss">
+                <div>
+                    <img src="./assets/img/RS.jpg" alt="RSS-LOGO" class="rss-imege"/>
+                </div>
+            </a>
+        </div>
+    </footer>    
+</body>
+</html>
