@@ -1,5 +1,8 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
   }
 
  html {
@@ -36,6 +39,9 @@
     margin-top: 15px;
 }
 
+.specialization{
+    margin-top: 20px;
+}
 .rss{
     margin-left: auto;
     margin-right: 0%
@@ -85,6 +91,15 @@ height: 70px;
   .selection-item{
     margin: 10px 0
   }
+
+  .selection-list-skills{
+    margin: 0;
+    padding: 0;
+  }
+
+  .selection-item-skills{
+    margin: 10px 0
+  }
   
   .nav-list {
     display: flex;
@@ -122,11 +137,16 @@ height: 70px;
   .footer{
     background-color: #232428;
     color: white;
+    margin-top: 30px;
   }
 
  .container {
     max-width: 1040px;
     margin: 0 auto;
+  }
+
+  .section-item{
+    margin-bottom: 10px;;
   }
 
   .section-title {
@@ -137,6 +157,7 @@ height: 70px;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #232428;
+    margin-bottom: 20px;
   }
 
  .ubuntu-light {
