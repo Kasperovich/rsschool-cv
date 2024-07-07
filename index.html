@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <title>cv kasperovich</title>
+    <title>cv</title>
 </head>
 <body>
     <header class="header"> 
@@ -17,20 +17,20 @@
                 <ul class="nav-list">
                   <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                   <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
                   <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
                   <li class="nav-item"><a href="#Work-experience" class="nav-link">Work experience</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
                 </ul>
               </nav>
         </div>
     </header>
     <main class="main">    
         <div class="container main-container">
-            <section class="section" id="avatar">
-                <div>
+            <div class="section" id="avatar">
                     <img src="./assets/img/avatar.jpg" alt="avatar" class="avatar" />
-                </div>
-            </section>
+            </div>
             <section class="section" id="profile">
                 <div class="profile">
                     <h1 class="ubuntu-bold name">KASPEROVICH VLAD</h1>
@@ -74,6 +74,18 @@
                     <p>2013-2016</p>
                 </div>
             </section>
+            <section class="section" id="code">
+                <h2 class="section-title">CODE</h2>
+                <code class="code">
+                    function median(data) {<Br>
+                        data.sort((a, b) => a - b);<Br>
+                        if (data.length % 2) {<Br>
+                          return data[Math.floor(data.length / 2)];<Br>
+                        } else {<Br>
+                          return (data[data.length / 2] + data[data.length / 2 - 1]) / 2;}<Br>
+                      }<Br>
+                </code>
+            </section>
             <section class="section" id="skills">
                 <h2 class="section-title">Skills</h2>
                 <ul class="selection-list-skills">
@@ -100,10 +112,6 @@
                     </li>
                 </ul>
             </section>
-            <section class="section" id="languages">
-                <h2 class="section-title">Languages</h2>
-                Elementary (A1)
-            </section>
             <section class="section" id="Work-experience">
                 <h2 class="section-title">Work experience</h2>
                 <div class="selection-item">
@@ -123,6 +131,10 @@
                     <p>Software Engineer</p>
                 </div>
             </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                Elementary (A1)
+            </section>
         </div>
     </main>
     <footer class="footer">        
@@ -132,7 +144,9 @@
                 <a class="nav-link" title="GitHub" href="https://github.com/Kasperovich">kasperovich</a>
             </div>
             <a href="https://rs.school/" class="rss">
-                <img src="./assets/img/RS.jpg" alt="RSS-LOGO" class="rss-imege"/>
+                <div>
+                    <img src="./assets/img/RS.jpg" alt="RSS-LOGO" class="rss-imege"/>
+                </div>
             </a>
         </div>
     </footer>    
